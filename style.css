@@ -1,0 +1,86 @@
+* {
+    /* Normalización */
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* 
+
+ Jerarquía de selectores CSS
+1 etiqueta ( h1, p , div )
+10 class ( .nombreDeClase )
+100 id ( #nombreDeId )
+
+*/
+
+/* #principal{
+    color: green;
+}
+
+.titulo{
+    color: red;
+} */
+
+/* body > header > h1{
+    color: orange;
+}
+
+h1{
+    color: blue;
+} */
+/* 
+
+Medidas absolutas
+px,cm,in,mm,pt,pc
+
+Medidas relativas
+
+%,em,rem,vh,vw
+*/
+
+.caja{
+    /* ancho
+    width: 100vw;
+     alto
+    height: 50vw; */
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+    border: 1px solid black;
+    margin: 25px;
+
+    background-color: blue;
+}
+
+.roja{
+    background-color: red;
+}
+
+.verde{
+    background-color: green;
+}
+/* 
+    Display: 
+    block: ocupa todo el ancho disponible
+    inline : ocupa solo el espacio necesario
+    inline-block: ocupa solo el espacio necesario pero permite definir ancho y alto
+
+*/
+
+.img{
+    display: block ;
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    padding: 5px;
+}
+
+a{  
+    display: inline-block;
+    background-color: red;
+    padding: 40px;
+    margin: 10px 0px ;
+}
+
+
